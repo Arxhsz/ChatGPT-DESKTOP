@@ -1,0 +1,31 @@
+{
+    "name": "chatgpt-desktop",
+    "version": "1.0.6",
+    "description": "Electron wrapper for ChatGPT",
+    "author": "Arxhsz",
+    "main": "main.js",
+    "scripts": {
+      "start": "electron .",
+      "dist": "electron-builder --win",
+      "dist:installer": "npm run dist"
+    },
+    "build": {
+      "appId": "com.Arxhsz.chatgpt-desktop",
+      "productName": "ChatGPT Desktop",
+      "files": ["**/*"],
+      "win": {
+        "target": ["nsis"],
+        "icon": "icons/chatgpt.ico"
+      },
+      "nsis": {
+        "oneClick": false,
+        "perMachine": false,
+        "allowElevation": true,
+        "allowToChangeInstallationDirectory": true
+      }
+    },
+    "devDependencies": {
+      "electron": "^25.0.0",
+      "electron-builder": "^24.0.0"
+    }
+  }
