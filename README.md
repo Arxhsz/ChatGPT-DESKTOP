@@ -1,4 +1,4 @@
-ChatGPT Desktop
+
 
 # ChatGPT Desktop
 
@@ -124,5 +124,10 @@ chatgpt-desktop/
 ```
 
 ----------
+
+![image](https://github.com/user-attachments/assets/23a5cad8-cd86-4e9d-8f2c-620b9b51ea34)
+![image](https://github.com/user-attachments/assets/1e6b9669-0bac-47bf-8e72-2d15db581c3d)
+
+
 
 Enjoy your native-like ChatGPT desktop app! If you run into issues, open an issue on GitHub.
